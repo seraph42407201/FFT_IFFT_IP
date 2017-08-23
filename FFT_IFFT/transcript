@@ -1,0 +1,277 @@
+# Reading D:/modeltech_6.5b/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5b May 21 2009 
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile {D:/FPGA designs/FFT_new/FFT_new.mpf} 
+# Loading project FFT_new
+# Compile of fft.v was successful.
+# Compile of fft_stage1.v was successful.
+# Compile of ftwiddle.v was successful.
+# Compile of BF_op.v was successful.
+# Compile of BF_stgX.v was successful.
+# Compile of fft_stageX.v was successful.
+# Compile of ftrans_I.v was successful.
+# Compile of ftrans_II.v was successful.
+# Compile of ftwiddle10.v was successful.
+# Compile of ftwiddle11.v was successful.
+# Compile of ftwiddle98.v was successful.
+# Compile of fft_stage2.v was successful.
+# Compile of cmpl_mul_2clk.v was successful.
+# Compile of cmpl_mul_6clk.v was successful.
+# Compile of ftrans1.v was successful.
+# Compile of Conjugate_Op.v was successful.
+# Compile of Div_Op.v was successful.
+# Compile of ifft.v was successful.
+# Compile of FFT_IFFT.v was successful.
+# Compile of fft_ifft_sim.v was successful.
+# 20 compiles, 0 failed with no errors. 
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(49)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+quit -sim
+# Compile of fft_ifft_sim.v was successful.
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+restart
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+quit -sim
+# Compile of fft_ifft_sim.v was successful.
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+restart
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+run
+run
+run
+run
+restart
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# Compile of fft_ifft_sim.v was successful.
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(50)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(51)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+run
+quit -sim
+# Compile of fft_ifft_sim.v was successful.
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(56)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(57)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+run
+run
+# Compile of fft_ifft_sim.v failed with 1 errors.
+# Compile of fft_ifft_sim.v was successful.
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(53)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(54)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+# Compile of fft_ifft_sim.v was successful.
+vsim -L primitive -Lf primitive work.fft_ifft_sim
+# vsim -L primitive -Lf primitive work.fft_ifft_sim 
+# Loading work.fft_ifft_sim
+# Loading work.FFT_IFFT
+# Loading work.fft
+# Loading work.ftrans1
+# Loading work.fft_stageX
+# Loading work.BF_stgX
+# Loading work.BF_op
+# Loading work.ftrans_I
+# Loading work.ftrans_II
+# Loading work.fft_stage2
+# Loading work.fft_stage1
+# Loading work.ftwiddle10
+# Loading work.cmpl_mul_6clk
+# Loading work.cmpl_mul_altmult_complex_78p
+# Loading primitive.altmult_add
+# Loading primitive.ALTERA_DEVICE_FAMILIES
+# Loading work.ftwiddle8
+# Loading work.ftwiddle6
+# Loading work.ftwiddle4
+do {D:/FPGA designs/FFT_new/wave.do}
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "real.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(53)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1025 of file "imag.vec". (Current address [1024], address range [0:1023])    : D:/FPGA designs/FFT_new/src/fft_ifft_sim.v(54)
+#    Time: 0 ps  Iteration: 0  Instance: /fft_ifft_sim
+run
+quit -sim
+quit

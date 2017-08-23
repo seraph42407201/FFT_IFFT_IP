@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu May 31 20:25:59 2012
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : FFT_new
+Top-level Entity Name : ifft
+Family : Cyclone III
+Device : EP3C25F324C8
+Timing Models : Final
+Total logic elements : 2,440 / 24,624 ( 10 % )
+    Total combinational functions : 2,145 / 24,624 ( 9 % )
+    Dedicated logic registers : 1,303 / 24,624 ( 5 % )
+Total registers : 1303
+Total pins : 90 / 216 ( 42 % )
+Total virtual pins : 0
+Total memory bits : 4,293 / 608,256 ( < 1 % )
+Embedded Multiplier 9-bit elements : 24 / 132 ( 18 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,85 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Full Version
+# Date created = 14:35:13  May 28, 2012
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		FFT_new_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C25F324C8
+set_global_assignment -name TOP_LEVEL_ENTITY FFT_IFFT
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:35:13  MAY 28, 2012"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 324
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_F1 -to iclk
+set_global_assignment -name MISC_FILE "D:/FPGA designs/FFT_new/FFT_new.dpf"
+set_global_assignment -name USE_TIMEQUEST_TIMING_ANALYZER OFF
+set_global_assignment -name FMAX_REQUIREMENT "120 MHz"
+set_global_assignment -name BDF_FILE src/FFT_new.bdf
+set_global_assignment -name VERILOG_FILE src/FFT_IFFT.v
+set_global_assignment -name VERILOG_FILE src/Conjugate_Op.v
+set_global_assignment -name VERILOG_FILE src/ftwiddle10.v
+set_global_assignment -name VERILOG_FILE src/ftwiddle11.v
+set_global_assignment -name VERILOG_FILE src/ftwiddle98.v
+set_global_assignment -name VERILOG_FILE src/Div_Op.v
+set_global_assignment -name VERILOG_FILE src/ifft.v
+set_global_assignment -name VERILOG_FILE src/cmpl_mul_2clk.v
+set_global_assignment -name VERILOG_FILE src/cmpl_mul_6clk.v
+set_global_assignment -name VERILOG_FILE src/fft_stage2.v
+set_global_assignment -name VERILOG_FILE src/BF_op.v
+set_global_assignment -name VERILOG_FILE src/BF_stgX.v
+set_global_assignment -name VERILOG_FILE src/fft.v
+set_global_assignment -name VERILOG_FILE src/fft_stage1.v
+set_global_assignment -name VERILOG_FILE src/fft_stageX.v
+set_global_assignment -name VERILOG_FILE src/ftrans_I.v
+set_global_assignment -name VERILOG_FILE src/ftrans_II.v
+set_global_assignment -name VERILOG_FILE src/ftrans1.v
+set_global_assignment -name VERILOG_FILE src/ftwiddle.v
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name FMAX_REQUIREMENT "120 MHz" -section_id clock
+set_instance_assignment -name CLOCK_SETTINGS clock -to iclk
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

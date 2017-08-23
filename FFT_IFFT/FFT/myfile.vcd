@@ -1,0 +1,75 @@
+$date
+	Wed May 30 16:36:14 2012
+$end
+$version
+	ModelSim Version 6.5b
+$end
+$timescale
+	1ps
+$end
+$scope module fft_sim $end
+$var parameter 32 ! SIM_DLY $end
+$var parameter 32 " MULT_OP_DLY $end
+$var parameter 32 # REAL_MSB $end
+$var parameter 32 $ REAL_LSB $end
+$var parameter 32 % IMGN_MSB $end
+$var parameter 32 & IMGN_LSB $end
+$var parameter 32 ' MCPLX_WIDTH $end
+$var parameter 32 ( MREAL_WIDTH $end
+$var parameter 32 ) MIMGN_WIDTH $end
+$var parameter 32 * REAL_MMSB $end
+$var parameter 32 + REAL_MLSB $end
+$var parameter 32 , IMGN_MMSB $end
+$var parameter 32 - IMGN_MLSB $end
+$var parameter 32 . FFT_STAGE $end
+$var reg 1 / iclk $end
+$var reg 1 0 rst_n $end
+$var reg 7 1 iaddr [6:0] $end
+$var reg 18 2 iReal [17:0] $end
+$var reg 18 3 iImag [17:0] $end
+$var reg 1 4 ien $end
+$var wire 1 5 oReal [17] $end
+$var wire 1 6 oReal [16] $end
+$var wire 1 7 oReal [15] $end
+$var wire 1 8 oReal [14] $end
+$var wire 1 9 oReal [13] $end
+$var wire 1 : oReal [12] $end
+$var wire 1 ; oReal [11] $end
+$var wire 1 < oReal [10] $end
+$var wire 1 = oReal [9] $end
+$var wire 1 > oReal [8] $end
+$var wire 1 ? oReal [7] $end
+$var wire 1 @ oReal [6] $end
+$var wire 1 A oReal [5] $end
+$var wire 1 B oReal [4] $end
+$var wire 1 C oReal [3] $end
+$var wire 1 D oReal [2] $end
+$var wire 1 E oReal [1] $end
+$var wire 1 F oReal [0] $end
+$var wire 1 G oImag [17] $end
+$var wire 1 H oImag [16] $end
+$var wire 1 I oImag [15] $end
+$var wire 1 J oImag [14] $end
+$var wire 1 K oImag [13] $end
+$var wire 1 L oImag [12] $end
+$var wire 1 M oImag [11] $end
+$var wire 1 N oImag [10] $end
+$var wire 1 O oImag [9] $end
+$var wire 1 P oImag [8] $end
+$var wire 1 Q oImag [7] $end
+$var wire 1 R oImag [6] $end
+$var wire 1 S oImag [5] $end
+$var wire 1 T oImag [4] $end
+$var wire 1 U oImag [3] $end
+$var wire 1 V oImag [2] $end
+$var wire 1 W oImag [1] $end
+$var wire 1 X oImag [0] $end
+$var wire 1 Y oaddr [6] $end
+$var wire 1 Z oaddr [5] $end
+$var wire 1 [ oaddr [4] $end
+$var wire 1 \ oaddr [3] $end
+$var wire 1 ] oaddr [2] $end
+$var wire 1 ^ oaddr [1] $end
+$var wire 1 _ oaddr [0] $end
+$var wire 1 ` oen $end
+$var integer 32 a index $end

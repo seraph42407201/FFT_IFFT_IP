@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.249 ns
+From           : iImag[0]
+To             : ifft:fft_ins|fft:fft_ins|fft_stageX:stagX[5].fft_stageX_inst|BF_stgX:BF_inst0|altsyncram:r_rtl_0|altsyncram_frg1:auto_generated|ram_block1a0~porta_datain_reg0
+From Clock     : --
+To Clock       : iclk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 9.832 ns
+From           : ifft:fft_ins|oImag[17]
+To             : oImag[17]
+From Clock     : iclk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.062 ns
+From           : ien
+To             : ifft:fft_ins|fft:fft_ins|fft_stageX:stagX[5].fft_stageX_inst|BF_stgX:BF_inst0|altsyncram:r_rtl_0|altsyncram_frg1:auto_generated|ram_block1a0~porta_we_reg
+From Clock     : --
+To Clock       : iclk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'iclk'
+Slack          : -2.088 ns
+Required Time  : 120.00 MHz ( period = 8.333 ns )
+Actual Time    : 95.96 MHz ( period = 10.421 ns )
+From           : ifft:fft_ins|fft:fft_ins|fft_stageX:stagX[3].fft_stageX_inst|ftrans_II:ftrans_II_inst|cmpl_mul_2clk:cmpl_mul_2c_inst|cmpl_mul_altmult_complex_38p:cmpl_mul_altmult_complex_38p_component|altmult_add:mult_add1|mult_add_a412:auto_generated|ded_mult_cg41:ded_mult1|mac_mult8~OBSERVABLEDATAA_REGOUT17
+To             : ifft:fft_ins|fft:fft_ins|fft_stageX:stagX[3].fft_stageX_inst|ftrans_II:ftrans_II_inst|cmpl_mul_2clk:cmpl_mul_2c_inst|cmpl_mul_altmult_complex_38p:cmpl_mul_altmult_complex_38p_component|altmult_add:mult_add1|mult_add_a412:auto_generated|dffe7a[33]
+From Clock     : iclk
+To Clock       : iclk
+Failed Paths   : 3151
+
+Type           : Clock Hold: 'iclk'
+Slack          : 0.646 ns
+Required Time  : 120.00 MHz ( period = 8.333 ns )
+Actual Time    : N/A
+From           : ifft:fft_ins|fft:fft_ins|fft_stageX:stagX[5].fft_stageX_inst|BF_stgX:BF_inst0|dump
+To             : ifft:fft_ins|fft:fft_ins|fft_stageX:stagX[5].fft_stageX_inst|BF_stgX:BF_inst0|dump
+From Clock     : iclk
+To Clock       : iclk
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 3151
+
+--------------------------------------------------------------------------------------
+

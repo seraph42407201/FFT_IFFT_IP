@@ -1,0 +1,4 @@
+set tool_name "ModelSim (Verilog)"
+set corner_file_list {
+	{{"Slow -8 1.2V 85 Model"} {FFT_new.vo FFT_new_v.sdo}}
+}

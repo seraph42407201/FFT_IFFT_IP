@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Jun 10 22:19:58 2012
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : FFT_new
+Top-level Entity Name : FFT_IFFT
+Family : Cyclone III
+Total logic elements : 2,297
+    Total combinational functions : 1,729
+    Dedicated logic registers : 1,251
+Total registers : 1251
+Total pins : 88
+Total virtual pins : 0
+Total memory bits : 1,908
+Embedded Multiplier 9-bit elements : 16
+Total PLLs : 0

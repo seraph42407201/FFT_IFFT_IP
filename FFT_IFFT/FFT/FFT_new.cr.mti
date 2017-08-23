@@ -1,0 +1,153 @@
+{D:/FPGA designs/FFT_new/src/Conjugate_Op.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/Conjugate_Op.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module conjugate_Op
+
+Top level modules:
+	conjugate_Op
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftrans_II.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftrans_II.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftrans_II
+
+Top level modules:
+	ftrans_II
+
+} {} {}} {D:/FPGA designs/FFT_new/src/fft_sim.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/fft_sim.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module fft_sim
+
+Top level modules:
+	fft_sim
+
+} {} {}} {D:/FPGA designs/FFT_new/src/cmpl_mul_6clk.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/cmpl_mul_6clk.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module cmpl_mul_altmult_complex_78p
+-- Compiling module cmpl_mul_6clk
+
+Top level modules:
+	cmpl_mul_6clk
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ifft_sim.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ifft_sim.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ifft_sim
+
+Top level modules:
+	ifft_sim
+
+} {} {}} {D:/FPGA designs/FFT_new/src/Div_Op.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/Div_Op.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module Div_Op
+
+Top level modules:
+	Div_Op
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftwiddle.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftwiddle.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftwiddle7
+-- Compiling module ftwiddle6
+-- Compiling module ftwiddle5
+-- Compiling module ftwiddle4
+-- Compiling module ftwiddle3
+
+Top level modules:
+	ftwiddle7
+	ftwiddle6
+	ftwiddle5
+	ftwiddle4
+	ftwiddle3
+
+} {} {}} {D:/FPGA designs/FFT_new/src/fft_stage1.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/fft_stage1.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module fft_stage1
+
+Top level modules:
+	fft_stage1
+
+} {} {}} {D:/FPGA designs/FFT_new/src/fft_stage2.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/fft_stage2.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module fft_stage2
+
+Top level modules:
+	fft_stage2
+
+} {} {}} {D:/FPGA designs/FFT_new/src/BF_stgX.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/BF_stgX.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module BF_stgX
+
+Top level modules:
+	BF_stgX
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftrans_I.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftrans_I.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftrans_I
+
+Top level modules:
+	ftrans_I
+
+} {} {}} {D:/FPGA designs/FFT_new/src/BF_op.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/BF_op.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module BF_op
+
+Top level modules:
+	BF_op
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftrans1.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftrans1.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftrans1
+
+Top level modules:
+	ftrans1
+
+} {} {}} {D:/FPGA designs/FFT_new/src/fft.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/fft.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module fft
+
+Top level modules:
+	fft
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ifft.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ifft.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ifft
+
+Top level modules:
+	ifft
+
+} {} {}} {D:/FPGA designs/FFT_new/src/fft_stageX.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/fft_stageX.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module fft_stageX
+
+Top level modules:
+	fft_stageX
+
+} {} {}} {D:/FPGA designs/FFT_new/src/cmpl_mul_2clk.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/cmpl_mul_2clk.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module cmpl_mul_altmult_complex_38p
+-- Compiling module cmpl_mul_2clk
+
+Top level modules:
+	cmpl_mul_2clk
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftwiddle10.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftwiddle10.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftwiddle10
+
+Top level modules:
+	ftwiddle10
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftwiddle98.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftwiddle98.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftwiddle9
+-- Compiling module ftwiddle8
+
+Top level modules:
+	ftwiddle9
+	ftwiddle8
+
+} {} {}} {D:/FPGA designs/FFT_new/src/ftwiddle11.v} {1 {vlog -work work -novopt -nocovercells {D:/FPGA designs/FFT_new/src/ftwiddle11.v}
+Model Technology ModelSim SE vlog 6.5b Compiler 2009.05 May 21 2009
+-- Compiling module ftwiddle11
+
+Top level modules:
+	ftwiddle11
+
+} {} {}}

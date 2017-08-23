@@ -1,0 +1,1 @@
+vsim -L primitive -Lf primitive work.fft_sim; do {D:/FPGA designs/FFT_new/Test_mul_wave.do}; run;
