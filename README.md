@@ -3,7 +3,7 @@ FFT/IFFT Configuration IP implementted using Verilog HDL
 
 2017.08.23:
 
-    This topic is my main job when I'm a master student.
+    This topic is my main job when I'm a master student(2010-2013).
     It's unbelievable that I have studied verilog!
 
     Time flies!
